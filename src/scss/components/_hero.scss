@@ -61,10 +61,8 @@
 @media (max-width: 1440px) {
 	.hero {
 		&__container {
-			background-size: contain;
-			background-position-y: center;
-			padding-top: 140px;
-			padding-bottom: 260px;
+			padding-top: 40px;
+			padding-bottom: 60px;
 			&-top {
 				padding-left: 80px;
 			}
@@ -79,13 +77,19 @@
 @media (max-width: 1024px) {
 	.hero {
 		&__container {
-			padding-top: 200px;
-			padding-bottom: 260px;
+			padding-top: 140px;
+			padding-bottom: 180px;
+			background-size: contain;
+			background-position-y: center;
 			color: #ccc;
+			&-top {
+				padding-left: 40px;
+			}
 		}
 		&__logo {
 			width: 240px;
 			height: 155px;
+			margin-left: -20px;
 		}
 		&__job {
 			font-size: 20px;
@@ -105,14 +109,18 @@
 			line-height: 28px;
 			color: #ccc;
 		}
+		&__title {
+			font-size: 28px;
+			line-height: 120%;
+		}
 	}
 }
 
 @media (max-width: 768px) {
 	.hero {
 		&__container {
-			padding-top: 260px;
-			padding-bottom: 300px;
+			padding-top: 240px;
+			padding-bottom: 280px;
 			&-top {
 				padding-left: 30px;
 			}
@@ -137,7 +145,7 @@
 			line-height: 22px;
 		}
 		&__title {
-			font-size: 24px;
+			font-size: 20px;
 		}
 		&__logo {
 			margin-left: -28px;
@@ -145,11 +153,11 @@
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 	.hero {
 		&__container {
-			padding-top: 300px;
-			padding-bottom: 310px;
+			padding-top: 280px;
+			padding-bottom: 300px;
 			&-top {
 				padding-left: 0;
 			}
@@ -184,10 +192,10 @@
 	}
 }
 
-@media (max-width: 435px) {
+@media (max-width: 480px) {
 	.hero {
 		&__container {
-			padding-top: 320px;
+			padding-top: 300px;
 			padding-bottom: 320px;
 			&-top {
 				padding-left: 10px;
@@ -223,7 +231,46 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 435px) {
+	.hero {
+		&__container {
+			padding-top: 320px;
+			padding-bottom: 330px;
+			&-top {
+				padding-left: 10px;
+			}
+		}
+		&__logo {
+			width: 95px;
+			height: 62px;
+			margin-left: -4px;
+			margin-bottom: -8px;
+		}
+		&__job {
+			font-size: 5px;
+			line-height: 130%;
+			max-width: 70px;
+			letter-spacing: 0.7px;
+		}
+		&__name {
+			font-size: 7px;
+			line-height: 130%;
+		}
+		&__link {
+			font-size: 6px;
+			line-height: 130%;
+		}
+		&__tel {
+			font-size: 6px;
+			line-height: 130%;
+		}
+		&__title {
+			font-size: 11px;
+		}
+	}
+}
+
+@media (max-width: 390px) {
 	.hero {
 		&__container {
 			padding-top: 340px;
@@ -232,10 +279,32 @@
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
 	.hero {
 		&__container {
+			padding-top: 350px;
 			padding-bottom: 340px;
+		}
+	}
+}
+
+@media (max-width: 370px) {
+	.hero {
+		&__container {
+			padding-top: 340px;
+			padding-bottom: 345px;
+		}
+		&__title {
+			font-size: 9px;
+		}
+	}
+}
+
+@media (max-width: 334px) {
+	.hero {
+		&__container {
+			padding-top: 340px;
+			padding-bottom: 350px;
 		}
 	}
 }
