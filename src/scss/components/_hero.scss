@@ -4,8 +4,6 @@
 		margin: auto 0;
 		height: 100%;
 		background: url("../img/main-image.jpg") no-repeat top;
-		padding-top: 75px;
-		padding-bottom: 170px;
 		color: var(--white-color);
 		&-top {
 			display: flex;
@@ -62,10 +60,11 @@
 @media (max-width: 1440px) {
 	.hero {
 		&__container {
-			padding-top: 40px;
-			padding-bottom: 60px;
 			&-top {
 				padding-left: 80px;
+			}
+			&-flex {
+				row-gap: 25%;
 			}
 		}
 		&__title {
@@ -78,8 +77,6 @@
 @media (max-width: 1024px) {
 	.hero {
 		&__container {
-			// padding-top: 140px;
-			// padding-bottom: 180px;
 			background-size: contain;
 			background-position-y: center;
 			color: #ccc;
@@ -87,7 +84,7 @@
 				padding-left: 40px;
 			}
 			&-flex {
-				row-gap: 12%;
+				row-gap: 10%;
 			}
 		}
 		&__logo {
@@ -123,10 +120,11 @@
 @media (max-width: 768px) {
 	.hero {
 		&__container {
-			// padding-top: 240px;
-			// padding-bottom: 280px;
 			&-top {
 				padding-left: 30px;
+			}
+			&-flex {
+				row-gap: 5%;
 			}
 		}
 		&__job {
@@ -149,9 +147,11 @@
 			line-height: 22px;
 		}
 		&__title {
-			font-size: 20px;
+			font-size: 16px;
 		}
 		&__logo {
+			width: 200px;
+			height: 135px;
 			margin-left: -28px;
 		}
 	}
@@ -160,8 +160,6 @@
 @media (max-width: 600px) {
 	.hero {
 		&__container {
-			// padding-top: 280px;
-			// padding-bottom: 300px;
 			&-top {
 				padding-left: 0;
 			}
@@ -199,10 +197,11 @@
 @media (max-width: 480px) {
 	.hero {
 		&__container {
-			// padding-top: 300px;
-			// padding-bottom: 320px;
 			&-top {
 				padding-left: 10px;
+			}
+			&-flex {
+				row-gap: 12%;
 			}
 		}
 		&__logo {
@@ -238,8 +237,6 @@
 @media (max-width: 435px) {
 	.hero {
 		&__container {
-			// padding-top: 320px;
-			// padding-bottom: 330px;
 			&-top {
 				padding-left: 10px;
 			}
@@ -280,38 +277,24 @@
 			&-flex {
 				row-gap: 8%;
 			}
-			// padding-top: 340px;
-			// padding-bottom: 330px;
-		}
-	}
-}
-
-@media (max-width: 380px) {
-	.hero {
-		&__container {
-			// padding-top: 350px;
-			// padding-bottom: 340px;
 		}
 	}
 }
 
 @media (max-width: 370px) {
 	.hero {
-		&__container {
-			// padding-top: 340px;
-			// padding-bottom: 345px;
-		}
 		&__title {
 			font-size: 9px;
 		}
 	}
 }
 
-@media (max-width: 334px) {
+@media (max-width: 345px) {
 	.hero {
 		&__container {
-			// padding-top: 340px;
-			// padding-bottom: 350px;
+			&-flex {
+				row-gap: 4%;
+			}
 		}
 	}
 }
