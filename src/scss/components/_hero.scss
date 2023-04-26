@@ -16,7 +16,8 @@
 		&-flex {
 			display: flex;
 			flex-direction: column;
-			justify-content: space-between;
+			justify-content: center;
+			row-gap: 400px;
 			height: 100%;
 		}
 	}
@@ -77,13 +78,16 @@
 @media (max-width: 1024px) {
 	.hero {
 		&__container {
-			padding-top: 140px;
-			padding-bottom: 180px;
+			// padding-top: 140px;
+			// padding-bottom: 180px;
 			background-size: contain;
 			background-position-y: center;
 			color: #ccc;
 			&-top {
 				padding-left: 40px;
+			}
+			&-flex {
+				row-gap: 12%;
 			}
 		}
 		&__logo {
@@ -119,8 +123,8 @@
 @media (max-width: 768px) {
 	.hero {
 		&__container {
-			padding-top: 240px;
-			padding-bottom: 280px;
+			// padding-top: 240px;
+			// padding-bottom: 280px;
 			&-top {
 				padding-left: 30px;
 			}
@@ -156,8 +160,8 @@
 @media (max-width: 600px) {
 	.hero {
 		&__container {
-			padding-top: 280px;
-			padding-bottom: 300px;
+			// padding-top: 280px;
+			// padding-bottom: 300px;
 			&-top {
 				padding-left: 0;
 			}
@@ -195,8 +199,8 @@
 @media (max-width: 480px) {
 	.hero {
 		&__container {
-			padding-top: 300px;
-			padding-bottom: 320px;
+			// padding-top: 300px;
+			// padding-bottom: 320px;
 			&-top {
 				padding-left: 10px;
 			}
@@ -234,8 +238,8 @@
 @media (max-width: 435px) {
 	.hero {
 		&__container {
-			padding-top: 320px;
-			padding-bottom: 330px;
+			// padding-top: 320px;
+			// padding-bottom: 330px;
 			&-top {
 				padding-left: 10px;
 			}
@@ -270,11 +274,14 @@
 	}
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
 	.hero {
 		&__container {
-			padding-top: 340px;
-			padding-bottom: 330px;
+			&-flex {
+				row-gap: 8%;
+			}
+			// padding-top: 340px;
+			// padding-bottom: 330px;
 		}
 	}
 }
@@ -282,8 +289,8 @@
 @media (max-width: 380px) {
 	.hero {
 		&__container {
-			padding-top: 350px;
-			padding-bottom: 340px;
+			// padding-top: 350px;
+			// padding-bottom: 340px;
 		}
 	}
 }
@@ -291,8 +298,8 @@
 @media (max-width: 370px) {
 	.hero {
 		&__container {
-			padding-top: 340px;
-			padding-bottom: 345px;
+			// padding-top: 340px;
+			// padding-bottom: 345px;
 		}
 		&__title {
 			font-size: 9px;
@@ -303,8 +310,8 @@
 @media (max-width: 334px) {
 	.hero {
 		&__container {
-			padding-top: 340px;
-			padding-bottom: 350px;
+			// padding-top: 340px;
+			// padding-bottom: 350px;
 		}
 	}
 }
